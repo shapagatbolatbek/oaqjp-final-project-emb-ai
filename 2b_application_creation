@@ -1,0 +1,259 @@
+Script started on 2026-11-09 05:34:23-05:00 [TERM="xterm-color" TTY="/dev/pts/3" COLUMNS="25" LINES="12"]
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mcd /home/project/[m
+[7mfinal_project[m
+[7mscript -q 2b_application_[m[7mc[m[7mcreation[m
+[7mpython3[m[A[A[A[A[00m$ cd /home/project/
+final_project
+script -q 2b_application_creation
+python3
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mpython3[mpython3
+[?2004lPython 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector print(emotion_detector('I am really mad about this'))
+  File "<stdin>", line 1
+    from emotion_detection import emotion_detectorprint(emotion_detector('I am really mad about this'))
+                                                       ^
+SyntaxError: invalid syntax
+>>> from emotion_detection import emotion_detector [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kr
+>>> print(emotion_detector('I am really mad about this'))
+{"emotionPredictions":[{"emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":26, "text":"I am really mad about this"}, "emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
+>>> exit()
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mpython3 test_emot[m
+[7mion_detection.py[m[Apython3 test_emot
+ion_detection.py
+[?2004l{"emotionPredictions":[{"emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":26, "text":"I am really mad about this"}, "emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mexit[mexit
+[?2004lexit
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> cat 2b_application_creation
+  File "<stdin>", line 1
+    cat 2b_application_creation
+        ^
+SyntaxError: invalid decimal literal
+>>> exit()
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mcd /home/project/[m
+[7mfinal_project[m[Acd /home/project/
+final_project
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mcat 2b_applicatio[m
+[7mn_creation[m[Am$ cat 2b_applicatio
+n_creation
+[?2004lScript started on 2026-11-09 05:34:38-05:00 [TERM="xterm-color" TTY="/dev/pts/4" COLUMNS="25" LINES="12"]
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mpython3[mpython3
+[?2004lPython 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector print(emotion_detector('I am really mad about this'))
+  File "<stdin>", line 1
+    from emotion_detection import emotion_detectorprint(emotion_detector('I am really mad about this'))
+                                                       ^
+SyntaxError: invalid syntax
+>>> from emotion_detection import emotion_detector [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kr
+>>> print(emotion_detector('I am really mad about this'))
+{"emotionPredictions":[{"emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":26, "text":"I am really mad about this"}, "emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
+>>> exit()
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mpython3 test_emot[m
+[7mion_detection.py[m[Apython3 test_emot
+ion_detection.py
+[?2004l{"emotionPredictions":[{"emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}, "target":"", "emotionMentions":[{"span":{"begin":0, "end":26, "text":"I am really mad about this"}, "emotion":{"anger":0.6674731, "disgust":0.022848725, "fear":0.09749009, "joy":0.011863918, "sadness":0.1953058}}]}], "producerId":{"name":"Ensemble Aggregated Emotion Workflow", "version":"0.0.1"}}
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mexit[mexit
+[?2004lexit
+
+Script done on 2026-11-09 05:37:36-05:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mcd /home/project/[m
+[7mfinal_project[m[Acd /home/project/
+final_project
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mnano emotion_dete[m
+[7mction.py[m[A00m$ nano emotion_dete
+ction.py
+[?2004l[?2004h)07[?47h[1;12r[m[4l[m[?1h=[?1h=[m[m[H[2J[10;6H[7m[ Reading... ][m[15D[7m[ Read 19 lines ][m[H[7m...n_detection.py        [1;25H[m[10B[7m^G[m Help [7m^O[m Write[7m^W[m Where[1B[7m^X[m Exit [7m^R[m Read [7m^\[m Replac[4ha[4l[10A[36m[1mimport[m[m requests[2B[36m[1mdef[34m emotion_detector[m[m(tex[7m>[5;5H[murl = [32m[1m"https://sn-wa[m[m[7m>[7;5H[mheaders = {[8;9H[32m[1m"grpc-metadata-m[m[m[7m>[9;5H[m}[7A[1;19H[7m*[10;5H[m[K[1;25H[1B    }[K[2B    result[[32m[1m'dominant_emo[5;5H[m[m[K[1B[36m[1mreturn[m[m resultimport [7m>[7;5H[m[K[1B[36m[1mdef[34m emotion_detector[m[m(tex[9;5Hurl = [32m[1m"https://sn-wa[m[m[7m>[6;18H[m[2A[A[2;9r[2;1HM[1;12r[2;9H[32m[1m'sadness'[m[m: emoti[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;9H[32m[1m'joy'[m[m: emotions[[7m>[2;18H[m[2;10r[2;1HM[1;12r[2;9H[32m[1m'fear'[m[m: emotions[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;9H[32m[1m'disgust'[m[m: emoti[7m>[2;18H[m[2;10r[2;1HM[1;12r[2;9H[32m[1m'anger'[m[m: emotion[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;5Hresult = {[2;10r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hemotions = formatted[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;5Hformatted_response =[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hresponse = requests.[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hmyobj = {[32m[1m"raw_docume[m[m[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[4B[2;10r[2;1H[2M[1;12r[8;5Hresult = {[9;9H[32m[1m'anger'[m[m: emotion[7m>[9;18H[m[2;10r[2;1H[3M[1;12r[7;9H[32m[1m'disgust'[m[m: emoti[7m>[8;9H[m[32m[1m'fear'[m[m: emotions[7m>[9;9H[m[32m[1m'joy'[m[m: emotions[[7m>[9;18H[m[2;5H    [32m[1m'fear'[m[m: emotions[3;5H    [32m[1m'joy'[m[m: emotions[[4;9H[32m[1m'sadness'[m[m: emoti[7m>[5;5H[m}[K[6;9H[K[7;5Hresult[[32m[1m'dominant_emo[8;9H[m[m[K[9;5H[36m[1mreturn[m[m resultimport [7D[2;10r[2;1H[3M[1;12r[8;1H[36m[1mdef[34m emotion_detector[m[m(tex[7m>[9;5H[murl = [32m[1m"https://sn-wa[m[m[7m>[9;18H[m[2;10r[2;1H[4M[1;12r[7;5Hheaders = {[8;9H[32m[1m"grpc-metadata-m[m[m[7m>[9;5H[m}[2;10r[2;1H[3M[1;12r[8;5Hinput_json = {[9;9H[32m[1m"raw_document"[m[m: {[9;18H[2;10r[2;1H[2M[1;12r[8;13H[32m[1m"text"[m[m: text[7m>[9;9H[m}[2;10r[2;1H[3M[1;12r[7;5H}[2Bresponse = requests.[7m>[9;18H[m[2;10r[2;1H[2M[1;12r[9;5H[36m[1mreturn[m[m response.text[7D[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;1H[1B[7mline 47/47 (100%), col  1[11;1H[m[2A[2;9r[9;1H
+[1;12r[9;1H[1B[7mSave modified buffer?    [11;1H Y[m Yes[K[1B[7m N[m No       [7m^C[m Cancel[K[10;23H[1B[7m^G[m Help [7mM-D[m DOS [7mM-A[m Appen[12;1H[7m^C[m Cance[7mM-M[m Mac [7mM-P[m Prepe[4hp[4l[2A[7mFile Name to Write:<py[m     [7m[ Writing... ][m[K[9A[7m [5C[m[10;4H[7m[ Wrote 47 lines ][m[J[2B[12;1H[2J[?47l8[?1l>[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapaga
+tnb[00m:[01;34m/home/project/final_p
+roject[00m$ [7mpython3[mpython3
+[?2004lPython 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kr
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/project/final_project/emotion_detection.py", line 28
+    return resultimport requests
+                        ^^^^^^^^
+SyntaxError: invalid syntax
+>>> from emotion_detection import emotion_detector [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kr
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/project/final_project/emotion_detection.py", line 28
+    return resultimport requests
+                        ^^^^^^^^
+SyntaxError: invalid syntax
+>>> [K>>> [K>>> exit()
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ geevx   [A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ g [K[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K
+[K[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [7mn[m[7ma[m[7mano /home/project/final_project/emotion_detection.py[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ nano /home/project/final_project/emotion_detection.py
+[?2004l[?2004h)07[?47h[1;12r[m[4l[m[?1h=[?1h=[m[m[H[2J[10;23H[7m[ Reading... ][m[10;22H[7m[ Read 47 lines ][m[H[7m/home/project/final_project/emotion_detection.py           [1;59H[m[10B[7m^G[m Help[7C[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[1B[7m^X[m Exit[7C[7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[10A[36m[1mimport[m[m json[1B[36m[1mimport[m[m requests[2B[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[6;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[8;5H[mheaders = {[9;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[2;1H[m[1;50H[7m*[8C[m[1B\[36m[1mimport[m[m json\[1P[2;9r[2;1H[4L[1;12r[2;5H}[2Bresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[6;1H[m    [36m[1mreturn[m[m resultimport json[10;22H[K[6;18H[A[2A[2;10r[2;1H[2L[1;12r[2;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[3;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][2;18H[2;9r[2;1H[2L[1;12r[2;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[3;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[2;18H[2;9r[2;1H[2L[1;12r[2;5Hresult = {[3;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[2;15H[2;10r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[2;18H[m[2;9r[2;1HM[1;12r[2;5Hformatted_response = json.loads(response.text)[2;18H[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[2;18H[2;9r[2;1HM[1;12r[2;1H[2;10r[2;1HM[1;12r[2;5H}[2;9r[2;1HM[1;12r[2;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[2;18H[m[2;10r[2;1H[2L[1;12r[3;5Hheaders = {[A[2;10r[2;1H[2L[1;12r[2;1H[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[3;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[2;18H[m[2;10r[2;1H[2L[1;12r[2;1H[36m[1mimport[m[m requests[2;9r[2;1HM[1;12r[2;1H[36m[1mimport[m[m json[3;16H[5;18H[2B[8;16H[A[6;18H[A[A[5;18H[1B[2B[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[2;1H[2M[1;12r[8;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[1B[2;10r[10;1H
+[1;12r[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hformatted_response = json.loads(response.text)[9;18H[2;10r[10;1H
+[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;18H[m[2;10r[2;1H[4M[1;12r[7;5Hresult = {[8;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[9;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[9;18H[2;10r[10;1H
+[1;12r[9;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[9;18H[2;10r[2;1H[2M[1;12r[8;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[9;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][9;18H[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5H[36m[1mreturn[m[m resultimport json[9;18H[2;10r[10;1H
+[1;12r[9;1H[36m[1mimport[m[m requests[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;1H[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[9;18H[2;10r[10;1H
+[1;12r[9;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[2;1H[3M[1;12r[7;5Hheaders = {[8;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[9;5H[m}[2;10r[2;1H[4M[1;12r[7;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[9;18H[m[2;10r[2;1H[4M[1;12r[7;5Hformatted_response = json.loads(response.text)[8;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;1H[m[2;10r[2;1H[4M[1;12r[6;5Hresult = {[7;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[8;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[9;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[9;18H[2;10r[2;1H[2M[1;12r[8;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[9;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][9;18H[2;5H}[K[4;11H[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[5;9H[m[K[6;5H[36m[1mreturn[m[m resultimport requests[K[7;9H[K[1B[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[9;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[9;18H[m[2;10r[2;1H[2M[1;12r[9;5Hheaders = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;5H}[2;10r[2;1H[2M[1;12r[9;5Hinput_json = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m"raw_document"[m[m: {[9;18H[2;10r[10;1H
+[1;12r[9;13H[32m[1m"text"[m[m: text_to_analyze[9;18H[2;10r[10;1H
+[1;12r[9;9H}[2;9r[2;1H[4M[1;12r[4;8r[4;1H[2L[1;12r[4;13H[32m[1m"text"[m[m: text_to_analyze[5;9H}[6;5H}[K[7;9H [8;5Hresponse = requests.post(url, json=input_json, headers[7m>[9;1H[m[2;10r[2;1H[4M[1;12r[6;5H[36m[1mreturn[m[m response.text[3B[11;15H[7mM-D[m DOS Format[7mM-A[m Append    [7mM-B[m Backup File[12;2H[7mC[m Cancel     [7mM-M[m Mac Format[7mM-P[m Prepend   [7m^T[m Browse[2A[7mFile Name to Write:<etection.py                            [10;32H[m                      [7m[ Writing... ][m[K[1;50H[7m [8C[m[10;21H[7m[ Wrote 74 lines ][m[11;15H[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[K[12;2H[7mX[m Exit       [7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[K[3A[1B[J[2B[12;1H[2J[?47l8[?1l>[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kp ython3
+[?2004lPython 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/project/final_project/emotion_detection.py", line 28
+    return resultimport json
+                        ^^^^
+SyntaxError: invalid syntax
+>>> exit()
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mn[m[7ma[m[7mano /home/project/final_project/emotion_detection.py[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ nano /home/project/final_project/emotion_detection.py
+[?2004l[?2004h)07[?47h[1;12r[m[4l[m[?1h=[?1h=[m[m[H[2J[10;23H[7m[ Reading... ][m[10;22H[7m[ Read 74 lines ][m[H[7m/home/project/final_project/emotion_detection.py           [1;59H[m[10B[7m^G[m Help[7C[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[1B[7m^X[m Exit[7C[7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[10A[36m[1mimport[m[m json[1B[36m[1mimport[m[m requests[2B[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[6;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[8;5H[mheaders = {[9;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[2;1H[m[1B[1B[1B[1B[1B[A[A[A[A[A[1B[1B[1B[1B[10;22H[K[3A[1B[1B[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[9;1H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hformatted_response = json.loads(response.text)[2;10r[10;1H
+[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;1H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[9;1H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5H[36m[1mreturn[m[m resultimport json[2;10r[10;1H
+[1;12r[9;1H[36m[1mimport[m[m requests[2;10r[10;1H
+[1;12r[9;1H[1;50H[7m*[8C[m[8B[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[8;16H       [42m [m[m  impor      [36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[1B    url = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[7;29H[m   [42m [m[m        [1B[1B[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hheaders = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[9;18H[1P[1P[1P_document[32m[1m": {"[m[mtext"[1P[9;14H[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P   [1P  [1P [1P[A_document[32m[1m": {"[m[mtext": text_to_analyze}}[1B[K[A[7;6H_document[32m[1m": {"[m[mtext": text_to_analyze}}[1B[K[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[7;6H[m[1P[1P   [1P  [1P [1P[6;10r[10;1H
+[1;12r[6;1H[7m<[m[32m[1mated-workflow_lang_en_stock"[m[m_document[32m[1m": {"[m[mtext": text_to_[7m>[6;30H[m[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_a[6;29H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_an[6;28H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_ana[6;27H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_anal[6;26H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analy[6;25H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyz[6;24H[32m[1mdocument"[m[m: {[32m[1m"text"[m[m: text_to_analyze[6;23H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[6;22H[1P[1P[1P[1P[1P[1P[1P[1P[2P[1P[1P[1P[1P[1P        [32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated_d[m[m[7m>[6;57H[m[32m[1m_do[m[m[32m[1m_doc[m[m[32m[1m_docu[5D[m[m[32m[1m_docum[6D[m[m[32m[1m_docume[7D[m[m[32m[1m_documen[6;51H[m[m[32m[1m_document[6;50H[m[m[32m[1m_document"[6;49H[m[m[32m[1m_document"[m[m:[6;48H[32m[1m_document"[m[m: [6;47H[32m[1mdocument"[m[m: {[6;46H[32m[1m_document"[m[m: {[32m[1m"[6;45H[m[m[32m[1m_document"[m[m: {[32m[1m"t[6;44H[m[m[32m[1m_document"[m[m: {[32m[1m"te[6;43H[m[m[32m[1m_document"[m[m: {[32m[1m"tex[6;42H[m[m[32m[1m_document"[m[m: {[32m[1m"text[6;41H[m[m[32m[1m_document"[m[m: {[32m[1m"text"[6;40H[m[m[32m[1m_document"[m[m: {[32m[1m"text"[m[m:[6;39H_document[32m[1m": {"[m[mtext": [6;38H_document[32m[1m": {"[m[mtext": t[6;37H_document[32m[1m": {"[m[mtext": te[6;36H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: tex[6;35H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text[6;34H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_[6;33H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_t[6;32H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to[6;31H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_[6;30H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_a[6;29H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_an[6;28H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_ana[6;27H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_anal[6;26H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analy[6;25H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyz[6;24H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze[6;23H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[6;22H[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P_document[32m[1m": {"[m[mtext"[1P[6;9H[1P[7C[1P[6C[1P[5C[1P    [1P   [1P  [1P [1P[6;10r[10;1H
+[1;12r[5;16H_document[32m[1m": {"[m[mtext": text_to_analyze}}[9;5Hformatted_response = json.loads(response.text)[5;16H[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P   [1P  [1P [1P[4;10r[10;1H
+[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[4;1H[m[3;10r[10;1H
+[1;12r[3;1H[7m<[m[32m[1mdict"[m[m_document[32m[1m": {"[m[mtext": text_to_analyze}}[38D[C[32m[1mwork/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict_d[m[m[7m>[3;57H[m[32m[1m_do[m[m[32m[1m_doc[m[m[32m[1m_docu[5D[m[m[32m[1m_docum[6D[m[m[32m[1m_docume[7D[m[m[32m[1m_documen[3;51H[m[m[32m[1m_document[3;50H[m[m[32m[1m_document"[3;49H[m[m[32m[1m_document"[m[m:[3;48H[32m[1m_document"[m[m: [3;47H[32m[1m_document"[m[m: {[3;46H[32m[1m_document"[m[m: {[32m[1m"[3;45H[m[m[32m[1m_document"[m[m: {[32m[1m"t[3;44H[m[m[32m[1m_document"[m[m: {[32m[1m"tex[3;41H[m[m[32m[1m_document"[m[m: {[32m[1m"text"[3;40H[m[m[32m[1m_document"[m[m: {[32m[1m"text"[m[m:[3;39H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: [3;38H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: t[3;37H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: te[3;36H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: tex[3;35H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text[3;34H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_[3;33H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_t[3;32H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to[3;31H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_[3;30H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_a[3;29H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_an[3;28H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_ana[3;27H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analy[3;25H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyz[3;24H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze[3;23H[32m[1m_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[3;22H[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P    url = [32m[1m"https://sn-watson-emotion.labs.skills.network_d[m[m[7m>[3;57H[m[32m[1m_do[m[m[32m[1m_doc[m[m[32m[1m_docu[5D[m[m[32m[1m_docum[6D[m[m[32m[1m_docume[7D[m[m[32m[1m_documen[3;51H[m[m[32m[1m_document[3;50H[m[m[32m[1m_document"[3;49H[m[m[32m[1m_document"[m[m:[3;48H[32m[1m_document"[m[m: [3;47H[32m[1m_document"[m[m: {[3;46H[32m[1m_document"[m[m: {[32m[1m"[3;45H[m[m[32m[1m_document"[m[m: {[32m[1m"t[3;44H[m[m[32m[1m_document"[m[m: {[32m[1m"te[3;43H[m[m[1B[5;43H[1B[7;43H[1B[1B[2;10r[10;1H
+[1;12r[9;5Hresult = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[2;10r[10;1H
+[1;12r[9;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[9;43H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5H[36m[1mreturn[m[m resultimport requests[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;1H[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[2;10r[10;1H
+[1;12r[9;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[9;43H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hheaders = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[9;43H[m[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hinput_json = {[2;10r[10;1H
+[1;12r[9;9H[32m[1m"raw_document"[m[m: {[2;10r[10;1H
+[1;12r[9;13H[32m[1m"text"[m[m: text_to_analyze[2;10r[10;1H
+[1;12r[9;9H}[2;10r[10;1H
+[1;12r[9;5H}[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresponse = requests.post(url, json=input_json, headers[7m>[9;43H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5H[36m[1mreturn[m[m response.text[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;1H[A[A[6;25H            [42m [m[m  [6Dretur     [42m    [m[m     [A[A[7m<[meaders=headers)[K              response = requests.post(url, json=input_json, heade    [42m [m[m          [36m[1min[m[m i      [42m [m[m                   [42m [m[m  [42m [m[m         [42m    [m[m     [A[2;6H[42m    [m[m     [2;9H}[42m        [m[m         [2;13H[32m[1m"text"[m[m: text_to_analyze              [42m [m[m   [6D"text     [42m            [m[m             [2;9H[32m[1m"raw_document"[m[m: {[42m [m[m   [2;9H"raw_document             [42m        [m[m             input_json = {[42m [m[m  [42m [m[m         [36m[1min[m[m i [42m    [m[m         }[42m    [m[m     [7m<[m[32m[1mated-workflow_lang_en_stock"[m[m[Cated-workflow_lang_en_stock                               [32m[1m"grpc-metadata-mm-model-id"[m[m: "emotion_aggregated                  [42m [m[m   [2;9H"grpc-metadata-mm-model-id                          [42m        [m[m             headers = {[42m [m[m  [42m [m[m        [42m    [m[m     [7m<[m[32m[1mdict"[m[m[Cwork/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict                                                      url = "https://sn-watson-emotion.labs.skills.network                                             [42m [m[m  [42m [m[m    [42m    [m[m     [36m[1mdef[34m emotion_detector[m[m(text_to_analyze):                                 [42m [m[m  de       [36m[1mreturn[m[m resultimport requests       [42m [m[m        [2;10r[2;1HM[1;12r[2;1H[2;10r[2;1HM[1;12r[2;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[2;18H[m[2;10r[2;1H[2L[1;12r[2;5H}[2;10r[2;1H[2L[1;12r[2;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[3;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][2;18H[2;9r[2;1H[2L[1;12r[2;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[3;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[2;18H[2;10r[2;1HM[1;12r[2;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[2;18H[2;9r[2;1HM[1;12r[2;5Hresult = {[2;10r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[2;18H[m[2;9r[2;1HM[1;12r[2;5Hformatted_response = json.loads(response.text)[2;18H[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hurl = [32m[1m"https://sn-watson-emotion.labs._document"[m[m: {[32m[1m"te[m[m[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[2;18H[2;10r[2;1HM[1;12r[2;5H[36m[1mreturn[m[m result[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[2;18H[m[2;10r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5H}[2;10r[2;1HM[1;12r[2;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][2;18H[2;9r[2;1HM[1;12r[2;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[2;18H[2;9r[2;1H[2L[1;12r[2;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[3;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[2;18H[2;10r[2;1HM[1;12r[2;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[2;18H[2;10r[2;1H[2L[1;12r[3;5Hresult = {[A[2;9r[2;1HM[1;12r[2;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[2;18H[m[2;9r[2;1H[2L[1;12r[3;5Hformatted_response = json.loads(response.text)[A[2;9r[2;1HM[1;12r[2;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[2;18H[2;9r[2;1HM[1;12r[2;1H[2;10r[2;1HM[1;12r[2;5H}[2;9r[2;1HM[1;12r[2;9H[32m[1m"grpc-metadata-mm-model-id"[m[m: [32m[1m"emotion_aggregated-w[m[m[7m>[2;18H[m[2;9r[2;1HM[1;12r[2;5Hheaders = {[2;10r[2;1HM[1;12r[2;1H[2;9r[2;1HM[1;12r[2;5Hurl = [32m[1m"https://sn-watson-emotion.labs.skills.network/v[m[m[7m>[2;18H[m[2;9r[2;1H[2L[1;12r[3;1H[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[A[2;9r[2;1H[2L[1;12r[2;1H[36m[1mimport[m[m json[1B[36m[1mimport[m[m requests[A[2B[3B[2;10r[10;1H
+[1;12r[9;5H}[2;10r[2;1H[2M[1;12r[9;5Hmyobj = {[32m[1m"raw_document"[m[m: {[32m[1m"text"[m[m: text_to_analyze}}[9;18H[2;10r[2;1H[2M[1;12r[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[9;18H[m[2;10r[2;1H[3M[1;12r[8;5Hformatted_response = json.loads(response.text)[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[2;1H[3M[1;12r[7;5Hresult = {[8;9H[32m[1m'anger'[m[m: emotions[[32m[1m'anger'[m[m],[9;9H[32m[1m'disgust'[m[m: emotions[[32m[1m'disgust'[m[m],[9;18H[2;10r[10;1H
+[1;12r[9;9H[32m[1m'fear'[m[m: emotions[[32m[1m'fear'[m[m],[9;18H[2;10r[2;1H[2M[1;12r[8;9H[32m[1m'joy'[m[m: emotions[[32m[1m'joy'[m[m],[9;9H[32m[1m'sadness'[m[m: emotions[[32m[1m'sadness'[m[m][9;18H[2;10r[2;1H[2M[1;12r[8;5H}[1B[2;10r[10;1H
+[1;12r[9;5Hresult[[32m[1m'dominant_emotion'[m[m] = max(result, key=result.ge[7m>[9;18H[m[2;10r[2;1H[3M[1;12r[8;5H[36m[1mreturn[m[m result[1B[36m[1mdef[34m emotion_detector[m[m(text_to_analyze):[9;18H[2;10r[2;1H[2M[1;12r[8;5Hurl = [32m[1m"https://sn-watson-emotion.labs._document"[m[m: {[32m[1m"te[m[m[7m>[9;1H[m[2;10r[10;1H
+[1;12r[9;5Hresponse = requests.post(url, json=myobj, headers=head[7m>[9;18H[m[2;10r[2;1H[2M[1;12r[9;5Hformatted_response = json.loads(response.text)[9;18H[2;10r[10;1H
+[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult = {[2B[7mM-D[m DOS Format[7mM-A[m Append    [7mM-B[m Backup File[12;2H[7mC[m Cancel     [7mM-M[m Mac Format[7mM-P[m Prepend   [7m^T[m Browse[2A[7mFile Name to Write:<etection.py                            [10;32H[m                      [7m[ Writing... ][m[K[1;50H[7m [8C[m[10;21H[7m[ Wrote 47 lines ][m[11;15H[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[K[12;2H[7mX[m Exit       [7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[K[9;15H[1B[J[2B[12;1H[2J[?47l8[?1l>[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
+[?2004lTraceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/project/final_project/emotion_detection.py", line 30
+    url = "https://sn-watson-emotion.labs._document": {"text": text_to_analyze}}
+                                                                               ^
+SyntaxError: unmatched '}'
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kcaat > /home/project/final_project/emotion_detection.py <<'PY''
+import json
+import requests
+
+def emotion_detector(text_to_analyze):
+    url = "https://sn-watson-emotion.labs.skills.network/v1//watson.runtime.nlp.v1/NlpService/EmotionPredict"
+    headers = {"grpc-metadata-mm-model-id": "emotion_aggregaated-workflow_lang_en_stock"}
+    myobj = {"raw_document": {"text": text_to_analyze}}    response = requests.post(url, json=myobj, headers=headers)    formatted_response = json.loads(response.text)    emotions = formatted_response["emotionPredictions"][0]["emotion"][7m    result = {[m[7m        "anger": emotions["anger"],[m[7m        "disgust": emotions["disgust"],[m[7m        "fear": emotions["fear"],[m[7m        "joy": emotions["joy"],[m[7m        "sadness": emotions["sadness"][m[7m    }[m[7m    result["dominant_emotion"] = max(result, key=result.get[m[7m)[m[7m    return result[m[7mPY[m    result = {        "anger": emotions["anger"],        "disgust": emotions["disgust"],        "fear": emotions["fear"],        "joy": emotions["joy"],        "sadness": emotions["sadness"]    }    result["dominant_emotion"] = max(result, key=result.get)    return resultPY
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
+[?2004l{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7md[m[7md /home/project/final_project[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ cd /home/project/final_project
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mm[m[7mk[m[7mkdir -p EmotionDetection[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ mkdir -p EmotionDetection
+[?2[2;10r[10;1H
+[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;18H[m[2;10r[10;1H
+[1;12r[9;1H[2;10r[10;1H
+[1;12r[9;5Hresult = {[2B[7mM-D[m DOS Format[7mM-A[m Append    [7mM-B[m Backup File[12;2H[7mC[m Cancel     [7mM-M[m Mac Format[7mM-P[m Prepend   [7m^T[m Browse[2A[7mFile Name to Write:<etection.py                            [10;32H[m                      [7m[ Writing... ][m[K[1;50H[7m [8C[m[10;21H[7m[ Wrote 47 lines ][m[11;15H[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[K[12;2H[7mX[m Exit       [7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[K[9;15H[1B[J[2B[12;1H[2J[?47l8[?1l>[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
+[?2004lTraceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/project/final_project/emotion_detection.py", line 30
+    url = "https://sn-watson-emotion.labs._document": {"text": text_to_analyze}}
+                                                                               ^
+SyntaxError: unmatched '}'
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kcaat > /home/project/final_project/emotion_detection.py <<'PY''
+import json
+import requests
+
+def emotion_detector(text_to_analyze):
+    url = "https://sn-watson-emotion.labs.skills.network/v1//watson.runtime.nlp.v1/NlpService/EmotionPredict"
+    headers = {"grpc-metadata-mm-model-id": "emotion_aggregaated-workflow_lang_en_stock"}
+    myobj = {"raw_document": {"text": text_to_analyze}}    response = requests.post(url, json=myobj, headers=headers)    formatted_response = json.loads(response.text)    emotions = formatted_response["emotionPredictions"][0]["emotion"][7m    result = {[m[7m        "anger": emotions["anger"],[m[7m        "disgust": emotions["disgust"],[m[7m        "fear": emotions["fear"],[m[7m        "joy": emotions["joy"],[m[7m        "sadness": emotions["sadness"][m[7m    }[m[7m    result["dominant_emotion"] = max(result, key=result.get[m[7m)[m[7m    return result[m[7mPY[m    result = {        "anger": emotions["anger"],        "disgust": emotions["disgust"],        "fear": emotions["fear"],        "joy": emotions["joy"],        "sadness": emotions["sadness"]    }    result["dominant_emotion"] = max(result, key=result.get)    return resultPY
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
+[?2004l{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7md[m[7md /home/project/final_project[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m
