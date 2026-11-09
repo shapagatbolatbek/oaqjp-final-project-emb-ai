@@ -236,24 +236,52 @@ SyntaxError: unmatched '}'
 [?2004l{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
 [?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7md[m[7md /home/project/final_project[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ cd /home/project/final_project
 [?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mm[m[7mk[m[7mkdir -p EmotionDetection[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ mkdir -p EmotionDetection
-[?2[2;10r[10;1H
-[1;12r[9;5Hemotions = formatted_response[[32m[1m'emotionPredictions'[m[m][0][7m>[9;18H[m[2;10r[10;1H
-[1;12r[9;1H[2;10r[10;1H
-[1;12r[9;5Hresult = {[2B[7mM-D[m DOS Format[7mM-A[m Append    [7mM-B[m Backup File[12;2H[7mC[m Cancel     [7mM-M[m Mac Format[7mM-P[m Prepend   [7m^T[m Browse[2A[7mFile Name to Write:<etection.py                            [10;32H[m                      [7m[ Writing... ][m[K[1;50H[7m [8C[m[10;21H[7m[ Wrote 47 lines ][m[11;15H[7m^O[m Write Out  [7m^W[m Where Is   [7m^K[m Cut[K[12;2H[7mX[m Exit       [7m^R[m Read File  [7m^\[m Replace    [7m^U[m Paste[K[9;15H[1B[J[2B[12;1H[2J[?47l8[?1l>[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
-[?2004lTraceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "/home/project/final_project/emotion_detection.py", line 30
-    url = "https://sn-watson-emotion.labs._document": {"text": text_to_analyze}}
-                                                                               ^
-SyntaxError: unmatched '}'
-[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kcaat > /home/project/final_project/emotion_detection.py <<'PY''
-import json
-import requests
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7mp[m[7mp emotion_detection.py EmotionDetection/emotion_detection.p[m[7my[m[7my[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ cp emotion_detection.py EmotionDetection/emotion_detection.py
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7me[m[7mc[m[7mcho "from .emotion_detection import emotion_detector" > Emo[m[7mt[m[7mtionDetection/__init__.py[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ echo "from .emotion_detection import emotion_detector" > EmotionDetection/__init__.py
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit add .[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git add .
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit commit -m "Create EmotionDetection package"[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git commit -m "Create EmotionDetection package"
+[?2004lAuthor identity unknown
 
-def emotion_detector(text_to_analyze):
-    url = "https://sn-watson-emotion.labs.skills.network/v1//watson.runtime.nlp.v1/NlpService/EmotionPredict"
-    headers = {"grpc-metadata-mm-model-id": "emotion_aggregaated-workflow_lang_en_stock"}
-    myobj = {"raw_document": {"text": text_to_analyze}}    response = requests.post(url, json=myobj, headers=headers)    formatted_response = json.loads(response.text)    emotions = formatted_response["emotionPredictions"][0]["emotion"][7m    result = {[m[7m        "anger": emotions["anger"],[m[7m        "disgust": emotions["disgust"],[m[7m        "fear": emotions["fear"],[m[7m        "joy": emotions["joy"],[m[7m        "sadness": emotions["sadness"][m[7m    }[m[7m    result["dominant_emotion"] = max(result, key=result.get[m[7m)[m[7m    return result[m[7mPY[m    result = {        "anger": emotions["anger"],        "disgust": emotions["disgust"],        "fear": emotions["fear"],        "joy": emotions["joy"],        "sadness": emotions["sadness"]    }    result["dominant_emotion"] = max(result, key=result.get)    return resultPY
-[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mp[m[7my[m[7mython3 -c "from emotion_detection import emotion_detector; [m[7mp[m[7mprint(emotion_detector('I am really mad about this'))"[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ python3 -c "from emotion_detection import emotion_detector; print(emotion_detector('I am really mad about this'))"
-[?2004l{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
-[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7md[m[7md /home/project/final_project[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'theia@theiadocker-shapagatnb.(none)')
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kg it push
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit config --global user.name "shapagatbolatbek"[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git config --global user.name "shapagatbolatbek"
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit config --global user.email [m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git config --global user.email "shapagatnb@gmail  .com"
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit add .[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git add .
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit commit -m "Create EmotionDetection package"[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git commit -m "Create EmotionDetection package"
+[?2004l[main ca3ff01] Create EmotionDetection package
+ /home/project/final_project[00m$ cd /home/project/final_project
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mm[m[7mk[m[7mkdir -p EmotionDetection[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ mkdir -p EmotionDetection
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mc[m[7mp[m[7mp emotion_detection.py EmotionDetection/emotion_detection.p[m[7my[m[7my[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ cp emotion_detection.py EmotionDetection/emotion_detection.py
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7me[m[7mc[m[7mcho "from .emotion_detection import emotion_detector" > Emo[m[7mt[m[7mtionDetection/__init__.py[m[A[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ echo "from .emotion_detection import emotion_detector" > EmotionDetection/__init__.py
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit add .[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git add .
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit commit -m "Create EmotionDetection package"[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git commit -m "Create EmotionDetection package"
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'theia@theiadocker-shapagatnb.(none)')
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [Kg it push
+[?2004lUsername for 'https://github.com': ^C
+[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit config --global user.name "shapagatbolatbek"[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git config --global user.name "shapagatbolatbek"
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit config --global user.email [m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git config --global user.email "shapagatnb@gmail  .com"
+[?2004l[?2004h]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ [K[7mg[m[7mi[m[7mit add .[m[A]0;theia@theiadocker-shapagatnb: /home/project/final_project[01;32mtheia@theiadocker-shapagatnb[00m:[01;34m/home/project/final_project[00m$ git add .
+[?2004l[?2004h]0;theia@theia
